@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Gabby</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Gabby</span></h1>
+            <p>
+                I'm a front-end developer who loves building <br>
+                fantastic digital experiences with clean<br>and readable code.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/share/1A75vJxLLB/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/Myka-cloud"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="#portfolio" class="btn"> My Portfolio</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Content Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Canva Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Video Editor</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="./img/Home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/1733035073585.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                I'm a front-end developer who loves building fantastic digital experiences with clean and readable code. My expertise lies in HTML, CSS, JavaScript, which enable me to build responsive and user-friendly interfaces. I collaborate with designers and back-end developers to bring ideas to life while keeping performance in mind.
+           
+            </p>
+            <p>
+                 Front-end development for me is the perfect confluence of tech and art and every project presents an opportunity to reinvent how humans interact with the virtual space.
+            </p>
+            <a href="./RESUME.pdf" class="btn">View Resume</a>
+        </div>
+    </section>
+
+     <!-- portfolio section design -->
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./img/project1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p> Who converts ideas into responsive and visually appealing digital experiences.</p>
+                    <a href=" https://myka-cloud.github.io/Portfolio/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Fandom Site</h4>
+                    <p> Our team create engaging sites that enhance the fandom experience and encourage community interaction.</p>
+                    <a href="https://myka-cloud.github.io/Fandom-Site/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project4.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Fuel System</h4>
+                    <p>A Fuel Billing System is a software program that streamlines and automates fuel transactions.</p>
+                    <a href="https://github.com/Myka-cloud/Fuel"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project3.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Content Designer</h4>
+                    <p>Produces simple-to-read manuals that describe how to play a game, its controls, and its features.</p>
+                    <a href="https://github.com/Myka-cloud/User-Manual"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project5.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Face Recognition System</h4>
+                    <p>A Face Recognition System recognizes and verifies individuals through the comparison of facial features.</p>
+                    <a href="https://github.com/Myka-cloud/Face_Recog"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project6.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Ecommerce</h4>
+                    <p>Creating an e-commerce site is streamlined and user-friendly, thanks to various plugins and tools designed specifically for online selling.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- quiz section design -->
+    <section class="quiz" id="quiz">
+        <h2 class="heading">My <span>Quizzes</span></h2>
+
+        <div class="quiz-container">
+            <div class="quiz-box">
+                <h3>Pre - Test</h3>
+                <p>A test you do before enrolling in a unit or course. It is to test whether you already know something and how prepared you are for the subject.</p>
+                <a href="quiz.html" class="btn">Let's View</a>
+            </div>
+            <div class="quiz-box">
+                <h3>Post - Test</h3>
+                <p>A test administered after completion of a course or unit. It assesses how much a student has learned and whether the learning objectives were achieved.</p>
+                <a href="quiz.html" class="btn">Let's View</a>
+            </div>
+            <div class="quiz-box">
+                <h3>Long Quiz</h3>
+                <p> A longer and more definitive quiz that at times addresses numerous topics or much of what has been addressed. It is designed to assess more thoroughly for knowledge.</p>
+                <a href="#" class="btn">Let's View</a>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+               
+            <p>Myka Gabrielle.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="https://www.facebook.com/profile.php?id=100085240583454"><i class='bx bxl-facebook'></i></a>
+            <a href="https://github.com/Myka-cloud"><i class='bx bxl-github'></i></a>
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+          
+        </div>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
